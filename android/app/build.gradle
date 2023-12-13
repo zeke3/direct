@@ -61,6 +61,12 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
         }
+        debug {
+            resValue "string", "google_maps_api_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+        }
+        release {
+            resValue "string", "google_maps_api_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+        }        
     }
 }
 

@@ -237,9 +237,6 @@ class _SearchBarState extends State<SearchBar> {
             //   print(p.description);
             // }
           },
-          // onChanged: (String value) async {
-          //   await placeAutoComplete(value);
-          // },
           decoration: const InputDecoration(
             hintText: 'Search for a place',
             border: InputBorder.none,
