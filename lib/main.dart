@@ -168,24 +168,10 @@ class MapSampleState extends State<MapSample> {
             left: 15.0,
             right: 15.0,
             child: SearchBar(),
-            // child: Container(
-            //   height: deviceWidth * 0.03,
-            //   width: deviceWidth * 0.8,
-            //   decoration: BoxDecoration(
-            //     color: Colors.blue[700],
-            //   ),
-            //   child: TextFormField(
-            //     controller: searchController,
-            //     decoration: const InputDecoration(helperText: "Search location"),
-            //   ),
-            // ),
+
           ),
         ]),
-        // floatingActionButton: FloatingActionButton.extended(
-        //   onPressed: _goToTheLake,
-        //   label: const Text('To the lake!'),
-        //   icon: const Icon(Icons.directions_boat),
-        // ),
+
       ),
     );
   }
